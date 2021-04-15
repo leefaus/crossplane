@@ -201,6 +201,12 @@ curl -sL https://raw.githubusercontent.com/crossplane/crossplane/master/install.
 </div>
 </div>
 
+## Initialize Your Provider
+
+```console
+kubectl crossplane install provider crossplane/provider-aws:alpha
+```
+
 ## Select a Getting Started Configuration
 
 Crossplane goes beyond simply modelling infrastructure primitives as custom
